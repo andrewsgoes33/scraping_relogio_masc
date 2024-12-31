@@ -1,4 +1,5 @@
 import scrapy
+from datetime import datetime
 
 
 class MercadolivreSpider(scrapy.Spider):
@@ -27,7 +28,8 @@ class MercadolivreSpider(scrapy.Spider):
                     'New_Price_Cents':  Price_Cents[1] if len(Price_Cents) > 1 else None,
                     'Reviews_Rating' : product.css('span.poly-reviews__rating::text').get(),
                     'Reviews_Total' : product.css('span.poly-reviews__total::text').get(),
-                    'Ad_Link' : product.css('h2.poly-box.poly-component__title a::attr(href)').get()
+                    'Ad_Link' : product.css('h2.poly-box.poly-component__title a::attr(href)').get(),
+                    'Extraction_Date' : datetime.now()
                     }
 
         if self.page_count < self.max_pages:
