@@ -1,7 +1,6 @@
 import streamlit as st
 import pandas as pd
 import sqlite3
-import plotly_express as px
 
 #Conectando ao banco de Dados
 conn = sqlite3.connect('../data/mercadolivre.db')
