@@ -101,10 +101,6 @@ sqlite3
 
 Contribuições são sempre bem-vindas! Sinta-se à vontade para abrir issues ou enviar pull requests.
 
-## 📄 Licença
-
-Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
-
 ---
 
-Desenvolvido com ❤️ por [Seu Nome]
+Desenvolvido com ❤️ por [Andrews Goes]
