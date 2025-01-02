@@ -103,4 +103,4 @@ Contribuições são sempre bem-vindas! Sinta-se à vontade para abrir issues ou
 
 ---
 
-Desenvolvido com ❤️ por [Andrews Goes]
+Desenvolvido com ❤️ por [andrewsgoes33]
